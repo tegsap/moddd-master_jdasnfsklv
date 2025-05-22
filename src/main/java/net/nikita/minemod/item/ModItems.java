@@ -18,4 +18,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> MANDARIN = ITEMS.register("mandarin",
             ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> MANDARINTREE_SPLING = ITEMS.register("mandarintree_spling",
+            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)));
 }
